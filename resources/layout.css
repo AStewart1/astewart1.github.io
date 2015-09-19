@@ -37,7 +37,10 @@ a:hover {
 
 #nav {
 	margin: 0 20px 0 0;
+	column-count: 2;
   /* CHALLENGE 3: how could you get this to float to the left side of the screen? */
+	float:left;
+	width:250
 }
 
 #main {
@@ -46,6 +49,8 @@ a:hover {
 	  border-left-style: solid;
 		border-width: 1px;
 		border-color: green;
+		float:left;
+		width:500px;
 }
 
 #copyright {
